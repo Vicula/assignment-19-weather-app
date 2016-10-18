@@ -13,5 +13,5 @@ navigator.geolocation.getCurrentPosition(function getMyWeather(pos){
 });
 
 $.getJSON('https://api.darksky.net/forecast/' + myWeatherKey + crntLat + ',' + crntLong , function(forecast){
-
+   console.log(forecast)
 })
