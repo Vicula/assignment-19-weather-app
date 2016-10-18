@@ -5,7 +5,6 @@ var myWeatherKey = '0422dca222e2b33cd7a57d8e09a94ba2/'
 $.ajax({
 
     url: 'https://api.darksky.net/forecast/' + myWeatherKey + crntLat + ',' + crntLong
-
     type: 'GET',
     crossDomain: true,
     dataType: 'jsonp',
