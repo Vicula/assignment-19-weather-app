@@ -10,8 +10,9 @@ navigator.geolocation.getCurrentPosition(function getMyWeather(pos){
 
    crntLat = pos.coords.latitude
    crntLong = pos.coords.latitude
-});
+   
+   $.getJSON('https://api.darksky.net/forecast/' + myWeatherKey + crntLat + ',' + crntLong , function(forecast){
+      console.log(forecast)
+   })
 
-$.getJSON('https://api.darksky.net/forecast/' + myWeatherKey + crntLat + ',' + crntLong , function(forecast){
-   console.log(forecast)
-})
+});
