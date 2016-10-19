@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box; }
+
+img {
+  width: 100%;
+  display: block; }
+
+body {
+  margin: 0;
+  background: url("../images/pexels-photo-167699.jpeg") no-repeat center center fixed;
+  background-size: cover; }
+
+#app-container .pageContent .test {
+  position: relative;
+  bottom: 0; }
+
+/*# sourceMappingURL=styles.css.map */
